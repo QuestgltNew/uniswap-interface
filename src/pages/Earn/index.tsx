@@ -64,13 +64,13 @@ export default function Earn() {
             <AutoColumn gap="md">
               <RowBetween>
                 <TYPE.white fontWeight={600}>
-                  <Trans>Uniswap liquidity mining</Trans>
+                  <Trans>Switchswap liquidity mining</Trans>
                 </TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
                   <Trans>
-                    Deposit your Liquidity Provider tokens to receive UNI, the Uniswap protocol governance token.
+                    Deposit your Liquidity Provider tokens to receive SWITCH, the Switchswap protocol governance token.
                   </Trans>
                 </TYPE.white>
               </RowBetween>{' '}
@@ -80,7 +80,7 @@ export default function Earn() {
                 target="_blank"
               >
                 <TYPE.white fontSize={14}>
-                  <Trans>Read more about UNI</Trans>
+                  <Trans>Read more about SWITCH</Trans>
                 </TYPE.white>
               </ExternalLink>
             </AutoColumn>

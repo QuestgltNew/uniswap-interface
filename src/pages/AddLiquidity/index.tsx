@@ -551,7 +551,7 @@ export default function AddLiquidity({
                           style={{ marginBottom: 8, fontWeight: 500, opacity: 0.8 }}
                           textAlign="center"
                         >
-                          You are the first liquidity provider for this Uniswap V3 pool.
+                          You are the first liquidity provider for this Switchswap V3 pool.
                         </TYPE.body>
 
                         <TYPE.body fontWeight={500} textAlign="center" fontSize={14} style={{ opacity: 0.8 }}>

@@ -67,7 +67,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
         <CardSection gap="md">
           <RowBetween>
             <TYPE.white color="white">
-              <Trans>Your UNI Breakdown</Trans>
+              <Trans>Your SWITCH Breakdown</Trans>
             </TYPE.white>
             <StyledClose stroke="white" onClick={() => setShowUniBalanceModal(false)} />
           </RowBetween>
@@ -111,13 +111,13 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
           <AutoColumn gap="md">
             <RowBetween>
               <TYPE.white color="white">
-                <Trans>UNI price:</Trans>
+                <Trans>SWITCH price:</Trans>
               </TYPE.white>
               <TYPE.white color="white">${uniPrice?.toFixed(2) ?? '-'}</TYPE.white>
             </RowBetween>
             <RowBetween>
               <TYPE.white color="white">
-                <Trans>UNI in circulation:</Trans>
+                <Trans>SWITCH in circulation:</Trans>
               </TYPE.white>
               <TYPE.white color="white">{circulation?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
             </RowBetween>
@@ -129,7 +129,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
             </RowBetween>
             {uni && uni.chainId === 1 ? (
               <ExternalLink href={`https://info.uniswap.org/token/${uni.address}`}>
-                <Trans>View UNI Analytics</Trans>
+                <Trans>View SWITCH Analytics</Trans>
               </ExternalLink>
             ) : null}
           </AutoColumn>
