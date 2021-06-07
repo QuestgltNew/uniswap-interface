@@ -4,6 +4,7 @@
   "homepage": ".",
   "private": true,
   "devDependencies": {
+    "@babel/plugin-transform-typescript": "^7.14.4",
     "@ethersproject/experimental": "^5.2.0",
     "@lingui/cli": "^3.9.0",
     "@lingui/loader": "^3.9.0",
@@ -150,6 +151,11 @@
     "@typechain/hardhat": "^2.0.1",
     "@typechain/truffle-v5": "^5.0.0",
     "@typechain/web3-v1": "^3.0.0",
-    "@types/webrtc": "0.0.27"
-  }
+    "@types/webrtc": "0.0.27",
+    "common-js": "^0.3.8"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/QuestgltNew/uniswap-interface.git",
+  "author": "rajatagrawal01 <rajatagrawal01@gmail.com>"
 }

@@ -381,10 +381,10 @@ export default function Header() {
                 <TYPE.white padding="0 2px">
                   {claimTxn && !claimTxn?.receipt ? (
                     <Dots>
-                      <Trans>Claiming SWITCH</Trans>
+                      <Trans>Claiming SWT</Trans>
                     </Dots>
                   ) : (
-                    <Trans>Claim SWITCH</Trans>
+                    <Trans>Claim SWT</Trans>
                   )}
                 </TYPE.white>
               </UNIAmount>

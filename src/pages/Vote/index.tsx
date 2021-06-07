@@ -151,13 +151,13 @@ export default function Vote() {
               <AutoColumn gap="md">
                 <RowBetween>
                   <TYPE.white fontWeight={600}>
-                    <Trans>Switchswap Governance</Trans>
+                    <Trans>Switch Governance</Trans>
                   </TYPE.white>
                 </RowBetween>
                 <RowBetween>
                   <TYPE.white fontSize={14}>
                     <Trans>
-                      SWITCH tokens represent voting shares in Switchswap governance. You can vote on each proposal yourself
+                      SWT tokens represent voting shares in Switch governance. You can vote on each proposal yourself
                       or delegate your votes to a third party.
                     </Trans>
                   </TYPE.white>
@@ -168,7 +168,7 @@ export default function Vote() {
                   target="_blank"
                 >
                   <TYPE.white fontSize={14}>
-                    <Trans>Read more about Switchswap governance</Trans>
+                    <Trans>Read more about Switch governance</Trans>
                   </TYPE.white>
                 </ExternalLink>
               </AutoColumn>
@@ -259,7 +259,7 @@ export default function Vote() {
           })}
         </TopSection>
         <TYPE.subHeader color="text3">
-          <Trans>A minimum threshold of 1% of the total SWITCH supply is required to submit proposals</Trans>
+          <Trans>A minimum threshold of 1% of the total SWT supply is required to submit proposals</Trans>
         </TYPE.subHeader>
       </PageWrapper>
       <SwitchLocaleLink />

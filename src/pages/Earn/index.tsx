@@ -64,13 +64,13 @@ export default function Earn() {
             <AutoColumn gap="md">
               <RowBetween>
                 <TYPE.white fontWeight={600}>
-                  <Trans>Switchswap liquidity mining</Trans>
+                  <Trans>Switch liquidity mining</Trans>
                 </TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
                   <Trans>
-                    Deposit your Liquidity Provider tokens to receive SWITCH, the Switchswap protocol governance token.
+                    Deposit your Liquidity Provider tokens to receive SWT, the Switch protocol governance token.
                   </Trans>
                 </TYPE.white>
               </RowBetween>{' '}
@@ -80,7 +80,7 @@ export default function Earn() {
                 target="_blank"
               >
                 <TYPE.white fontSize={14}>
-                  <Trans>Read more about SWITCH</Trans>
+                  <Trans>Read more about SWT</Trans>
                 </TYPE.white>
               </ExternalLink>
             </AutoColumn>

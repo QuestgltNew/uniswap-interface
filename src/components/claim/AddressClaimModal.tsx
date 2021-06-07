@@ -105,12 +105,12 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
             <CardSection gap="md">
               <RowBetween>
                 <TYPE.white fontWeight={500}>
-                  <Trans>Claim SWITCH Token</Trans>
+                  <Trans>Claim SWT Token</Trans>
                 </TYPE.white>
                 <CloseIcon onClick={wrappedOnDismiss} style={{ zIndex: 99 }} stroke="white" />
               </RowBetween>
               <TYPE.white fontWeight={700} fontSize={36}>
-                <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} SWITCH</Trans>
+                <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} SWT</Trans>
               </TYPE.white>
             </CardSection>
             <Break />
@@ -118,7 +118,7 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             <TYPE.subHeader fontWeight={500}>
               <Trans>
-                Enter an address to trigger a SWITCH claim. If the address has any claimable SWITCH it will be sent to them on
+                Enter an address to trigger a SWT claim. If the address has any claimable SWT it will be sent to them on
                 submission.
               </Trans>
             </TYPE.subHeader>
@@ -136,7 +136,7 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
               mt="1rem"
               onClick={onClaim}
             >
-              <Trans>Claim SWITCH</Trans>
+              <Trans>Claim SWT</Trans>
             </ButtonPrimary>
           </AutoColumn>
         </ContentWrapper>
@@ -163,7 +163,7 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
               </TYPE.largeHeader>
               {!claimConfirmed && (
                 <Text fontSize={36} color={'#ff007a'} fontWeight={800}>
-                  <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} SWITCH</Trans>
+                  <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} SWT</Trans>
                 </Text>
               )}
               {parsedAddress && (

@@ -93,12 +93,12 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo }: Staki
                 {<FormattedCurrencyAmount currencyAmount={stakingInfo?.earnedAmount} />}
               </TYPE.body>
               <TYPE.body>
-                <Trans>Unclaimed SWITCH</Trans>
+                <Trans>Unclaimed SWT</Trans>
               </TYPE.body>
             </AutoColumn>
           )}
           <TYPE.subHeader style={{ textAlign: 'center' }}>
-            <Trans>When you withdraw, your SWITCH is claimed and your liquidity is removed from the mining pool.</Trans>
+            <Trans>When you withdraw, your SWT is claimed and your liquidity is removed from the mining pool.</Trans>
           </TYPE.subHeader>
           <ButtonError disabled={!!error} error={!!error && !!stakingInfo?.stakedAmount} onClick={onWithdraw}>
             {error ?? <Trans>Withdraw & Claim</Trans>}
@@ -109,10 +109,10 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo }: Staki
         <LoadingView onDismiss={wrappedOndismiss}>
           <AutoColumn gap="12px" justify={'center'}>
             <TYPE.body fontSize={20}>
-              <Trans>Withdrawing {stakingInfo?.stakedAmount?.toSignificant(4)} SWITCH-V2</Trans>
+              <Trans>Withdrawing {stakingInfo?.stakedAmount?.toSignificant(4)} SWT-V2</Trans>
             </TYPE.body>
             <TYPE.body fontSize={20}>
-              <Trans>Claiming {stakingInfo?.earnedAmount?.toSignificant(4)} SWITCH</Trans>
+              <Trans>Claiming {stakingInfo?.earnedAmount?.toSignificant(4)} SWT</Trans>
             </TYPE.body>
           </AutoColumn>
         </LoadingView>
@@ -124,10 +124,10 @@ export default function UnstakingModal({ isOpen, onDismiss, stakingInfo }: Staki
               <Trans>Transaction Submitted</Trans>
             </TYPE.largeHeader>
             <TYPE.body fontSize={20}>
-              <Trans>Withdrew SWITCH-V2!</Trans>
+              <Trans>Withdrew SWT-V2!</Trans>
             </TYPE.body>
             <TYPE.body fontSize={20}>
-              <Trans>Claimed SWITCH!</Trans>
+              <Trans>Claimed SWT!</Trans>
             </TYPE.body>
           </AutoColumn>
         </SubmittedView>
